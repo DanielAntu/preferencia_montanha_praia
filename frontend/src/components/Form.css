@@ -1,0 +1,26 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    gap: 10px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 0 0 49%;
+}
+
+.form-control label {
+    font-weight: bold;
+}
+
+.form-control input,
+.form-control select {
+    padding: 8px;
+    border: none;
+    background-color: #e6e7e8;
+    outline: none;
+    border-radius: 5px;
+}

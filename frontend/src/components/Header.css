@@ -1,0 +1,9 @@
+header {
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 0;
+}
+
+header h2 {
+    font-size: 20px;
+    padding-left: 7px;
+}
